@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor{
+    display: flex;
+   
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.seccion1{
+    display: flex;
+    
+    width: 800px;
+    height: 800px;
+
+}
+.seccion2{
+    display: flex;
+  
+    width: 900px;
+    height: 800px;
+    flex-direction: column;
+    border-radius: 20px;
+  
+}
+.seccion3{
+    display: flex;
+    
+    height: 180px;
+    flex-direction: row;
+    background-image: url(/img/esteban2.jpg);
+    border-radius: 10px;
+    
+}
+.seccion4{
+    display: flex;
+    
+    height: 69px;
+    flex-direction: row;
+   
+    
+}
+.seccion5{
+    display: flex;
+
+    width: 500px;
+    flex-direction: column;
+
+}
+.seccion6{
+    display: flex;
+  
+    width: 150px;
+}
+.seccion7{
+    display: flex;
+    border: solid 1px;
+    width: 140px;
+}
+header {
+   
+        background: #194102b3;
+        width: 796px;
+        height: 70px;
+       
+      }
+      
+ 
+      
+      nav ul {
+        list-style: none;
+      }
+      
+      nav ul li {
+        float: left ;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin-left: 80px;
+       margin-top: 10px;
+      }
+      nav ul li a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+      }
+      nav ul li:hover {
+        background: #eca023;
+      }
+      .seccion8{
+        display: flex;
+       
+        height: 400px;
+        width: 800px;
+        flex-direction: row;
+        margin-top: 5px;
+      }
+      .seccion9{
+        display: flex;
+        height: 400px;
+        width: 500px;
+        flex-direction: column;
+      }
+      .seccion10{
+        display: flex;
+        
+        height: 200px;
+        width: 500px;
+        border-radius: 15px;
+        background-color: #eca023;
+        
+      }
+      .seccion11{
+        display: flex;
+      
+        height: 200px;
+        width: 500px;
+        border-radius: 15px;
+        flex-direction: row;
+        background-color: #eca023;
+        margin-top: 6px;
+      }
+      .seccion12{
+        display: flex;
+        
+        width: 300px;
+        margin-left: 10px;
+        border-radius: 20px;
+        flex-direction: column;
+        background: #194102b3;
+      }
+      .seccion13{
+        display: flex;
+        
+        height: 50px;
+        width: 287px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        background: #000000b3;
+      
+      }
+     img{
+      width: 150px;
+     }
+     .imagen2{
+      width: 150px;
+     }
+     .seccion14{
+      display: flex;
+    
+      width: 150px;
+  }
+  h1{
+    font-size: 50px;
+    color: rgb(248, 248, 248);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .seccion15{
+    display: flex;
+    
+    height: 30px;
+    justify-content: center;
+    
+    
+  }
+  .seccion16{
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    
+  }
+  .texto{
+    font-size: 58px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+  }
+  .seccion17{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+   margin-left: 200px;
+   margin-top: 40px;
+    
+  }
+  .seccion18{
+    display: flex;
+    
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+  .seccion19{
+    display: flex;
+  
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    align-items: center;
+  }
+  .img1{
+    height: 150px;
+    border-radius: 20px;
+  }
+  .seccion20{
+    display: flex;
+    
+    height: 50px;
+    width: 330px;
+    border-radius: 20px;
+  }
+  .letra{
+    font-size: 20px;
+    color: black;
+  }
+  .letra1{
+    color: black;
+  }
+  .seccion21{
+    display: flex;
+   
+    height: 150px;
+    width: 350px;
+    border-radius: 20px;
+  }
+  .seccion22{
+    display: flex;
+    
+    height: 195px;
+    width: 350px;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+  .seccion23{
+    display: flex;
+    height: 195px;
+    width: 170px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .gatito{
+    height: 150px;
+    border-radius: 20px;
+  }
+  .seccion24{
+    display: flex;
+   
+    height: 35px;
+    width: 350px;
+    justify-content:center ;
+    align-items: center;
+
+  }
+  .hongos{
+    font-size: 20px;
+    color: black;
+  }
+  .seccion25{
+    display: flex;
+    
+    height: 40px;
+    width: 287px;
+    border-radius: 20px;
+    margin-top: 8px;
+    flex-direction: row;
+  }
+  .seccion26{
+    display: flex;
+    
+    height: 40px;
+    width: 287px;
+    border-radius: 20px;
+    margin-top: 8px;
+    justify-content: center;
+  }
+  h2{
+    color: aliceblue;
+  }
+  .seccion27{
+    display: flex;
+   
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+  }
+  .seccion28{
+    display: flex;
+    
+    width: 180px;
+  }
+  input{
+    background-color: rgb(216, 205, 205);
+    border-radius: 10px;
+    width: 200px;
+  }
+  .BOTON{
+    width: 200PX;
+    border-radius: 40PX;
+    background-color: rgb(36, 34, 34);
+    color: aliceblue;
+  }
+  .seccion29{
+    display: flex;
+    
+    height: 100px;
+    border-radius: 20px;
+    flex-direction: column;
+    background: #194102b3;
+    margin-top: 6px;
+    
+  }
+  .seccion30{
+    display: flex;
+    
+    height: 80px;
+    width: 800px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  header{
+    border-radius: 10px;
+  }
+  
