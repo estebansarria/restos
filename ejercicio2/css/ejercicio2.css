@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap: 10px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 8em;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(161, 161, 161);
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+ font-size: 4em;
+}
+h3{
+    border: none;
+    font-family: cursive;
+}
+pre {
+    display: block;
+    font-family: cursive, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    white-space:none;
+    margin: 0px 0px;
+    font-size: 1em;
+}
+.space{
+    width: 2em;
+}
+.log{
+    width: 100%;
+}
+.imagen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10em;
+    height: 9em;
+}
+.secciones{
+display: flex;
+background-color: rgb(255, 196, 0) ;
+height: 5em;
+width: 100%;
+border-radius: 0px 0px 10px 10px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.mn{
+    border-left: none;
+}
+li{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid white;
+    height: 3em;
+}
+li :hover{
+    border-bottom: 2px solid white;
+}
+.aa :hover{
+    border-bottom: 2px solid white;
+}
+main{
+    display: flex;
+    gap: 20px;
+}
+.articulos{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 70%;
+    flex: 1;
+}
+.SUB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px 10px 0px 0px;
+    height: 2em;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+.art1{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10px 10px 0px 0px;
+   background-color: rgba(226, 226, 226, 0.918);
+   flex: 1;
+
+}
+.submain{
+    display: flex;
+    gap: 5px;
+}
+.descrip{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+.descripcion{
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-between;
+}
+.perfil{
+ display: flex;
+ width: 90px;
+ align-items: center;
+}
+.foto{
+    width: 180px;
+    height: 120px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.contenedor2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.title{
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.seccion2{
+    height: 2em;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0) ;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 12em;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    background-color:  rgb(155, 155, 155);
+}
+aside{
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+}
+.opc{
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.ba{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(102, 102, 102);
+    height: 2em;
+    width: 60%;
+    border-bottom: 1px solid gray;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.subop{
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    background-color: black;
+}
+.subop2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+h4{
+    font-family: cursive;
+    color: rgb(255, 208, 0);
+}
+.seccion3{
+    width: 85%;
+    justify-content: space-between;
+    display: flex;
+}
+input{
+    width: 12em;
+}
+button{
+    border-radius: 5px;
+    background-color: rgb(255, 208, 0);
+    height: 2em;
+    width: 8em;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    height: 6em;
+    color: white;
+ background-color: rgb(0, 0, 0);
+}
+
